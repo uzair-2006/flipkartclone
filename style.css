@@ -1,0 +1,198 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar */
+
+.navbar h1 {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 30px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 34px;
+}
+.search {
+
+    display: flex;
+    align-items: center;
+    margin-right: 219px;
+}
+.search input {
+    width: 300px;
+    height: 30px;
+    border-radius: 9px;
+    border: none;
+    padding-left: 17px;
+    font-family: "Gill Sans", sans-serif;
+}
+.search button {
+    margin-left: 58px;
+    padding: 6px;
+    width: 95px;
+    color: white;
+    background-color: #0595d3;
+    border: none;
+    border-radius: 5px;
+    height: 34px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Gill Sans", sans-serif;
+    margin-right: -154px
+}
+.search button:hover {
+    margin-left: 58px;
+    padding: 6px;
+    width: 95px;
+    color: white;
+    background-color: #23780a;
+    border: none;
+    border-radius: 5px;
+    height: 34px;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+}
+.navbar {
+    display: flex;
+    background-color: rgb(5, 26, 140);
+    justify-content: space-between;
+    height: 60px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-top: 13px;
+    margin-left: 32px;
+    height: 30px;
+    
+    
+}
+.navbar ul li {
+    
+    margin: 20px;
+    color: white;
+    margin-left: 50px;
+    padding-right: 50px;
+    border: none;
+    
+    height: 20px;
+    font-family: "Gill Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbar ul li:hover {
+    margin: 20px;
+    background-color: #23780a;
+    color: white;
+    margin-left: 50px;
+    padding-right: 50px;
+    border: 2px solid;
+    border-radius: 13px;
+    border-width: 10px;
+    padding-inline: 27px;
+    border-color: #23780a;
+    height: 20px;
+    font-family: "Gill Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #23780a;
+    
+    transform: translate(-4px,-4px);
+    transition-duration: 0.3s;
+}
+/* slider */
+.specialdeals{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.slider{
+    width: 640px;
+    background-image: url('images/slider1.jpg');
+    height: 427px;
+    margin-top: 30px;
+    margin-left: 613px;
+    box-shadow: 10px 10px 10px 10px rgb(225, 225, 225);
+    margin-bottom: 40px;
+}
+.next,.previous{  
+    color: black;
+    margin-inline: -1px;
+    margin-block: 198px;
+    background-color: white;
+    font-size: 48px;
+    padding-inline:  19px ;
+    border-radius: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.next{
+    float: right;
+    padding-left: 25px; 
+}
+.previous:hover{  
+    transform: translate(-4px,-4px);
+}
+.next:hover{
+    transform: translate(4px,-4px);
+}
+.previous{
+    float: left;
+    padding-right: 25px;
+}
+/* hero */
+.mainlabel{
+    font-family: "Gill Sans", sans-serif;
+
+}
+.hero{
+    box-shadow: 10px 10px 10px 10px rgb(225, 225, 225);
+    margin-top: 80px;
+    background-color: white;
+    height: 370px;
+    width: 90%;
+    margin-left: 72px;
+    display: flex;
+    align-items: center;
+}
+.prod{
+    padding-inline: 70px;
+    
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.details  h4 {
+    margin: 7px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bolder;
+}
+#shopnow{
+    color: #4ce21f;
+    font-weight: bold;
+}
+.details p{
+    margin: 7px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+
+
+
+
